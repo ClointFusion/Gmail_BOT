@@ -1,5 +1,5 @@
 # Author: ClointFusion
-# Project: Gmail Sending Python BOT built using ClointFusion package
+# Project: Gmail Sending Pythonic BOT, built using ClointFusion package
 # Please visit: https://lnkd.in/gh_r9YB
 
 import time
@@ -31,8 +31,6 @@ if user_choice == "Automatic":
     username = cf.gui_get_any_input_from_user("Email Username/Login") #GUI pop-up window, first time 
 
     password = cf.gui_get_any_input_from_user("your Email Password",True) #GUI pop-up window, first time 
-
-    cf.pg.alert(password)
 
     password = (str(cryptocode.decrypt(password, "ClointFusion")).strip()) #GUI pop-up window, first time 
 
